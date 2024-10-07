@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            font: "Segoe UI" ;
+        }
+        .team-member{
+            width: 256rem; 
+
+        }
+        .team-member>p{
+            opacity: 0.8; 
+
+        }
+         h1{
+            color:indigo;
+            font-size: 2.5 rem;
+         }
+         h2{
+            color:honeydew;
+         }
+         h3{
+            color:honeydew;
+            font-size: 16px;
+         }
+
+         p{
+            color:gray;
+         }
         .link-item:hover{
             background-color: cadetblue;
+        }
+        .parent {
+            color: steelblue;
+            background-color: lightcyan;
+        }
+        #zayan{
+            background-color: cyan;
+            color: beige;
+        }
+        #zaidaan{
+            background-color: aquamarine;
         }
     </style>
 </head>
@@ -28,6 +65,37 @@
 <p>This is my first text paragraph in html</p>
 <p>This is my second text paragraph in html</p>
 <p>This is my third text paragraph in html</p>
+<section class="parent">
+    <div class="child">
+      <p>This is a para inside child</p>
+    </div>
+  </section>
+  <div class="Avtivity6" style="height: 256px;background-color: rgb(255, 52, 33);">
+    <div class="Activity6Child" style="height :128px;background-color: rgba(15, 107, 255);">
+            This is para inside child
+    </div>
+
+  </div>
+  <div>
+    <h1 class="main-heading">Meet the teamx</h1>
+    <p class="main-subtitle">Meet the people who make this software awesome</p>
+    <section class="team-member" id="zayan">
+        <img width="100" height="100" alt="zayan" src="https://api.dicebear.com/7.x/avataaars/svg?seed=annakendrick " />
+        <h2>Zayan</h2>
+        <h3>coding-ninja</h3>
+        <p>Bibliophile, loves to dive into fictional worlds, ships JS code like brownies</p>
+    </section>
+    <section class="team-member" id="zaidaan">
+        <img width="100" height="100" alt="zaidaan" src="https://api.dicebear.com/7.x/avataaars/svg?seed=harryfawn" />
+        <h2>zaidaan</h2>
+        <h3>Illustrator</h3>
+        <p>Creates new illustrations each week, will kill for coffee, and loves beaches</p>
+    </section>
+    <section class="team-member">
+        
+    </section>
+  </div>
+ 
     
 </body>
 </html>
